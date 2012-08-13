@@ -3,6 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Problem_1", "Problem_1\Problem_1.vcxproj", "{B84731FA-0BDD-4358-8CDA-77DF67B5E04C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_10", "1_10", "{7F720B7C-9921-4B7A-A31D-73F5D970982C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Problem_2", "Problem_2\Problem_2.vcxproj", "{699D3B74-35F8-41BD-86ED-E5218E441EB8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Problem_3", "Problem_3\Problem_3.vcxproj", "{ADF09377-4753-49FD-AE70-1F30C4CE95CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -13,8 +19,21 @@ Global
 		{B84731FA-0BDD-4358-8CDA-77DF67B5E04C}.Debug|Win32.Build.0 = Debug|Win32
 		{B84731FA-0BDD-4358-8CDA-77DF67B5E04C}.Release|Win32.ActiveCfg = Release|Win32
 		{B84731FA-0BDD-4358-8CDA-77DF67B5E04C}.Release|Win32.Build.0 = Release|Win32
+		{699D3B74-35F8-41BD-86ED-E5218E441EB8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{699D3B74-35F8-41BD-86ED-E5218E441EB8}.Debug|Win32.Build.0 = Debug|Win32
+		{699D3B74-35F8-41BD-86ED-E5218E441EB8}.Release|Win32.ActiveCfg = Release|Win32
+		{699D3B74-35F8-41BD-86ED-E5218E441EB8}.Release|Win32.Build.0 = Release|Win32
+		{ADF09377-4753-49FD-AE70-1F30C4CE95CC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ADF09377-4753-49FD-AE70-1F30C4CE95CC}.Debug|Win32.Build.0 = Debug|Win32
+		{ADF09377-4753-49FD-AE70-1F30C4CE95CC}.Release|Win32.ActiveCfg = Release|Win32
+		{ADF09377-4753-49FD-AE70-1F30C4CE95CC}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B84731FA-0BDD-4358-8CDA-77DF67B5E04C} = {7F720B7C-9921-4B7A-A31D-73F5D970982C}
+		{699D3B74-35F8-41BD-86ED-E5218E441EB8} = {7F720B7C-9921-4B7A-A31D-73F5D970982C}
+		{ADF09377-4753-49FD-AE70-1F30C4CE95CC} = {7F720B7C-9921-4B7A-A31D-73F5D970982C}
 	EndGlobalSection
 EndGlobal
