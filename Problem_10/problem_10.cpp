@@ -7,7 +7,8 @@ using namespace std;
 bool isPrime(BigLong number){
 	bool isPrime = true;
 
-	int limit = static_cast<int> (sqrtl(number));
+	long double numberLD = static_cast<long double>(number);
+	int limit = static_cast<int> (sqrtl(numberLD));
 
 	for(int i = 2; i<=limit; i++){
 		if(number % i == 0){
